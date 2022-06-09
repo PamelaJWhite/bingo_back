@@ -19,9 +19,9 @@ let playerRoutes = require("./routers/player")
 app.use(playerRoutes)
 
 // //get access to the admin file in the router folder
-// let adminRoutes = require("./routers/admin")
-// //and use it
-// app.use(adminRoutes)
+let adminRoutes = require("./routers/admin")
+//and use it
+app.use(adminRoutes)
 
 //testing connection
 app.get("/mysql", function(req, res){
