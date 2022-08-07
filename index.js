@@ -37,7 +37,7 @@ app.get("/mysql", function(req, res){
 })
 //this shows my main page
 app.get("/", function(req, res){
-    console.log("bingo?")
+    console.log("bingo? please bingo")
     res.send("connected to bingo index.js")
 })
  
